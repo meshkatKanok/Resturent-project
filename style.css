@@ -1,0 +1,659 @@
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+nav img{
+    width: 150px;
+}
+hr{
+    padding-bottom: 0;
+    width: 0;
+    margin-top: 6px;
+    margin-bottom: 0;
+    opacity: 0;
+    border: 2px solid;
+    transition:  width 0.5s ease-in-out, opacity 2s;
+    color:  #e75b1e;
+}
+nav a:hover hr{
+    opacity: 1;
+    width: 100%;
+    
+}
+
+.active-hr{
+   opacity: 1; 
+   color: #e75b1e;
+   width: 100%;
+    
+}
+#icone{
+    background-color: white !important;
+}
+ 
+nav{
+    height: 88px;
+}
+nav ul{
+    padding-top: 30px;
+  
+}
+
+nav :hover{
+   text-decoration: none;
+    color:  #e75b1e !important;
+}
+
+ 
+
+.baner{
+    background-image: url("images/banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.baner-box{
+     
+    height:505px;
+}
+.baner-button{
+    
+ 
+    border: 3px solid rgb(150, 44, 11);
+    color: aliceblue;
+    font-size: 2.5vw;
+    font-weight: 900;
+    padding: 50;
+    background-color: rgb(206, 62, 19);
+}
+.baner-button:hover{
+    color: white;
+    transition: all 0.5s;
+    background-color: rgba(206, 63, 19, 0);
+}
+.baner h1, h2 {
+    font-family: 'Nautilus Pompilius', sans-serif;
+    
+
+}
+.baner h1{
+    margin-top: 150px;
+    font-size: 6vw;
+}
+.baner h2{
+    color: #e75b1e;
+    margin: 50px 0;
+}
+.animation-text{
+    color: #e75b1e;
+    animation: pulse 3s infinite ;
+   
+
+}
+@keyframes pulse{
+    0%{
+        color: #e75a1e00;
+        font-size: 0px;
+       
+    }
+    20%{
+        color: #e75a1e18;
+        
+       
+    }
+    50%{
+        color: #e75a1e77;
+        
+    }
+    80%{
+        color: #fd4d01;
+       font-size: 6vw;
+    }
+    100%{
+        color: #fd4d01;
+        font-size: 0;
+    }
+    
+}
+.section-2{
+   
+    background-color: rgba(165, 146, 146, 0.171);
+}
+ 
+
+ 
+    
+
+
+
+
+
+
+
+
+
+.section-2 h1,.section-4 h1, .section-5 h1, .section-6 h1, .section-7 h1, .section-8 h1, .section-9 h1, .section-10 h1, .owner h1{
+    font-family: 'Nautilus Pompilius', sans-serif;
+    font-size: 5vw;
+    color: #fd4d01e8;
+    font-weight: 900;
+}
+.section-2 h5{
+    font-weight: 900;
+}
+ 
+.section-2-images img{
+    border: 10px solid rgb(240, 236, 236);
+    border-radius: 100%;
+    max-width: 95%;
+}
+
+.carousel-item img{
+    width: 200px;
+    height: 200px;
+}
+.section-5{
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.363) 0%,rgba(0, 0, 0, 0.582) 100%), url("images/team_bg.jpg");
+     
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+    
+    
+}
+.section-head{
+    height: 300px;
+}
+ 
+.team-card{
+    border: 0;
+}
+.card-footer{
+    background-color: rgb(255, 255, 255) ;
+    
+}
+.icon .fab{
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 100%;
+    color: black;
+    
+}
+.fab:hover{
+     color: white;
+    background-color: rgb(0, 0, 0);
+} 
+.facebook{
+    padding: 8px 12px;
+    
+}
+.twitter{
+    padding: 8px  8px;
+}
+.linkedin{
+    padding: 9px 10px;
+}
+.team-card:hover .card-body{
+    background-color: rgba(253, 107, 3, 0.89) ;
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+}
+.team-card:hover .card-footer{
+    background-color: rgba(210, 105, 30, 0);
+}
+ 
+.img-hover{
+    height: 100%;
+}
+.team-card:hover .img-hover{
+    background-color: rgba(17, 10, 5, 0.521);
+    transition: all 1s;
+}
+.card a{
+    text-decoration: none;
+}
+
+.section-7{
+    background-image: url("images/blog_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+   
+}
+.blog-card{
+    border: 0;
+    border-radius: 0;
+}
+
+
+
+
+.blogs-icon{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80, 61, 61, 0.404);
+    opacity: 0;
+}
+
+ 
+
+.blogs-icon .fas{
+     margin: -16px;
+      position: absolute;
+    border-radius: 50%;
+    border: 1px solid ;
+    padding: 10px;
+    background-color: rgb(14, 11, 1);
+    color: white;
+}
+.blog-img:hover .blogs-icon{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.blogs-icon .fas:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(49, 19, 19);
+    transition: all 0.5s;
+}
+.blogs-icon span:hover{
+    background-color: rgba(177, 141, 127, 0.432);
+    transition: all 0.5s;
+}
+
+.section-8{
+    background-image: url("images/full-bg.png");
+     
+}
+ 
+
+.pricing-card-img{
+    background-color: rgb(255, 94, 0);
+}
+.pricing-card-img img{
+    width: 75px;
+    margin-top: 19px;
+    margin-left: 39%;
+}
+.pricing-card-img p{
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.pricing-div{
+    height: 130px;
+    background-color: rgba(169, 169, 169, 0.267);
+}
+.pricing-div h1{
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 94, 0);
+}
+.pricing-card{
+    border-left:   1px solid #e75b1e;
+    border-right:   1px solid #e75b1e;
+     border-top:   0 ;
+     border-bottom:  0;
+   
+}
+.pricing-card .card-footer{
+    height: 75px;
+    border-bottom:   1px solid #e75b1e ;
+    background-color: rgba(164, 162, 173, 0.158);
+}
+.list-group-item {
+    
+    border-bottom: 1px solid rgba(136, 131, 131, 0.678) ;
+}
+
+.pricing-card button:hover{
+    color: black;
+}
+.section-9{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.form-div{
+    padding:0 100px;
+ 
+}
+
+
+ 
+
+
+
+ 
+ .form-button:hover{
+     color: black;
+ }
+ 
+ form{
+     height: 500px
+ }
+ .input-div{
+    margin-bottom: 20px;
+    
+ }
+ .section-10{
+     
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url("images/newsletter-bg.jpg");
+   height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.section-10-input{
+   
+    height: 55px;
+    margin-left: 15%;
+}
+.plane-icon{
+    background-color: chocolate;
+    
+}
+ .plane-icon .fas{
+     padding: 2px 5px;
+     color: white;
+     font-size: 37px;
+ }
+ .full-footer{
+   background-image:  radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
+   max-height: 765px;
+   
+    
+}
+.footer-icon{
+    width: 300px;
+}
+.footer-icon .fab{
+    background-color: rgba(0, 0, 0, 0);
+    margin: 5px;
+    width: 30px;
+    font-size: 23px;
+    color: aliceblue;
+}
+.footer-icon .fab:hover{
+     color: #e75b1e;
+    font-size: 22px;
+}
+.full-footer h3{
+    color: #e75b1e;
+    font-family: 'Nautilus Pompilius', sans-serif;
+}
+footer{
+    background-color: #e75b1e;
+    height: 70px;
+    border-top: 2px dotted white;
+
+}
+.section-10 input {
+    border: 2px dotted rgb(255, 255, 255);
+}
+.section-10 span {
+    border: 2px dotted rgb(255, 255, 255);
+}
+
+.menu-button{
+    width: 24%;
+    height: 250px;
+}
+.menu-button   h5{
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+}
+.menu-button:hover{
+    background-color: #e75b1e;
+    
+} 
+.menu-button:hover  h5{
+    color: white;
+     
+}
+.menu-button:hover  img{
+    color: white;
+}
+ .modal-body{
+    background-image: url("");
+         
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.034) 0%,rgba(0, 0, 0, 0.055) 100%), url("images/blog_bg.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ .modal-body h2{
+     color: #e75b1e;
+ }
+
+.menu-item-body img{
+   border: 5px solid white;
+   border-radius: 100%;
+   width: 91px;
+   height: 97px;
+}
+
+.menu-item-body h4{
+    border: 0.5px solid #e75b1e;
+    border-radius: 100%;
+    padding: 35px 26px;
+    color: white;
+}
+ 
+
+
+
+
+
+.gallary-effect{
+    background-color:#e75a1e5e;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.gallary-effect .fas{
+    font-size: 2vw;
+   color: white;
+   transition: all 0.2s;
+}
+.gallary-images:hover .gallary-effect{
+    opacity: 1;
+}
+.gallary-images:hover .gallary-effect .fas{
+    font-size: 5vw;
+    color: white;
+}
+
+
+@media (min-width: 0px) and (max-width: 576px){
+    .blogs-icon span{
+        border: 2px dotted  black;
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        background: rgba(185, 194, 109, 0.301);
+        color: #fff;
+        
+        transition: .3s all;
+        text-align: center;
+        padding: 80px;
+        border-radius: 100%;
+        top: 14%;
+        left: 30%;
+         
+    }
+    .section-7 button{
+        margin-left: 30%;
+    }
+    .section-9{
+        height: 1300px;
+         
+    }
+    .input-div .input-style{
+        height: 60%;
+        border-radius: 5px;
+        border: 1.5px dotted rgba(59, 50, 53, 0.973);
+         
+    }
+    .section-8{
+        height: 2200px;
+         
+    }
+    .pricing-card button{
+        padding: 5 5%;
+        margin-left: 38%;
+       
+    }
+ }
+ @media (min-width: 576px) and (max-width: 768px) {
+    .blogs-icon span{
+        border: 2px dotted  black;
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        background: rgba(185, 194, 109, 0.301);
+        color: #fff;
+        
+        transition: .3s all;
+        text-align: center;
+        padding: 90px  ;
+        border-radius: 90%;
+        top: 10%;
+        left: 30%;
+         
+    }
+    .section-7 button{
+        margin-left: 30%;
+    }
+}
+ @media (min-width: 576px) and (max-width: 991.98px) {
+   .section-8{
+       height: 1600px;
+      
+   }
+   .pricing-card button{
+    padding: 0 2%;
+    margin-left: 25%;
+   
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .section-2{
+        height: 700px;
+        background-color: rgb(255, 255, 255);
+    }
+    .navbar-collapse{
+        background-color: #212529;
+        padding-left: 10px;
+      
+    }
+    .blogs-icon span{
+        border: 2px dotted  black;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        background: rgba(185, 194, 109, 0.301);
+        color: #fff;
+        
+        transition: .3s all;
+        text-align: center;
+        padding: 70px;
+        border-radius: 100%;
+        top: 19%;
+        left: 8%;
+         
+    }
+    .section-7 button{
+        margin-left: 33%;
+    }
+ }
+ @media (min-width: 992px) and (max-width:1200px) {
+    
+    .section-7 button{
+        margin-left: 35%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+    
+    .section-2{
+        height: 650px;
+        background-color: rgb(255, 255, 255);
+    }
+    .section-9{
+        height: 870px;
+       
+    }
+    .input-div .input-style{
+     height: 80%;
+     border-radius: 5px;
+     border: 1.5px dotted rgba(102, 95, 95, 0.973);
+    } 
+    .section-8{
+       height: 980px;
+      
+   }
+   .pricing-card button{
+    padding: 0 2%;
+    margin-left: 20%;
+   
+}
+.blogs-icon span{
+    border: 2px dotted  black;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background: rgba(185, 194, 109, 0.301);
+    color: #fff;
+    
+    transition: .3s all;
+    text-align: center;
+    padding: 80px;
+    border-radius: 100%;
+    top: 14%;
+    left: 19%;
+     
+}
+.section-7 button{
+    margin-left: 36%;
+}
+
+}
+
+
+ 
+@media (min-width: 0px) and (max-width: 768px){
+    .section-2{
+        height: 930px;
+        background-color: rgb(255, 255, 255);
+    }
+    .navbar-collapse{
+        background-color: #212529;
+        padding-left: 10px;
+      
+    }
+
+ }
+ 
+.owner{
+    background-image: url("");
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.096) 0%,rgba(0, 0, 0, 0.52) 100%), url("images/owner-bg\ \(1\).jpg");
+     
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+
+   
+  
+
